@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+	<fieldset name="image_modal" class="image-subform">
+		<field name="mx_image" type="media" default="" label="Slider Image"  description="Choose an image..." size="30" />
+		<field name="trans" type="list" default="random-static" label="Fransition effect" description="Fransition effect">
+			<option value="random-static">random-static</option>
+			<option value="slideup">slideup</option>
+			<option value="slidedown">slidedown</option>
+			<option value="slideright">slideright</option>
+			<option value="slideleft">slideleft</option>
+			<option value="boxslide">boxslide</option>
+			<option value="slotslide-horizontal">slotslide-horizontal</option>
+			<option value="slotslide-vertical">slotslide-vertical</option>
+			<option value="boxfade">boxfade</option>
+			<option value="slotfade-horizontal">slotfade-horizontal</option>
+			<option value="slotfade-vertical">slotfade-vertical</option>
+			<option value="fadefromright">fadefromright</option>
+			<option value="fadefromleft">fadefromleft</option>
+			<option value="fade">fade</option>
+			<option value="fadefromtop">fadefromtop</option>
+			<option value="fadefrombottom">fadefrombottom</option>
+			<option value="parallaxtoright">parallaxtoright</option>
+			<option value="parallaxtoleft">parallaxtoleft</option>
+			<option value="parallaxtotop">parallaxtotop</option>
+			<option value="parallaxtobottom">parallaxtobottom</option>
+			<option value="scaledownfromright">scaledownfromright</option>
+			<option value="scaledownfromleft">scaledownfromleft</option>
+			<option value="scaledownfromtop">scaledownfromtop</option>
+			<option value="scaledownfrombottom">scaledownfrombottom</option>
+			<option value="zoomout">zoomout</option>
+			<option value="zoomin">zoomin</option>
+			<option value="slotzoom-horizontal">slotzoom-horizontal</option>
+			<option value="slotzoom-vertical">slotzoom-vertical</option>
+		</field>
+		<field name="amaunts" type="list" default="1" label="Slot amount" description="Slot amount on image annimation">
+			<option value="1">1 slots</option>
+			<option value="2">2 slots</option>
+			<option value="3">3 slots</option>
+			<option value="4">4 slots</option>
+			<option value="5">5 slots</option>
+			<option value="6">6 slots</option>
+			<option value="7">7 slots</option>
+			<option value="8">8 slots</option>
+			<option value="9">9 slots</option>
+			<option value="10">10 slots</option>
+			<option value="11">11 slots</option>
+			<option value="12">12 slots</option>
+			<option value="13">13 slots</option>
+			<option value="14">14 slots</option>
+			<option value="15">15 slots</option>
+			<option value="20">20 slots</option>
+		</field>
+		<field name="mx_title" type="text" size="100" default="" label="First line text ( pro )" description="First line text" disabled="true" />
+		<field name="mx_text" type="text" size="100" default="" label="Second line text ( pro )" description="Second line text" disabled="true" />
+		<field name="mx_text1" type="text" size="100" default="" label="Third line text ( pro )" description="Third line text" disabled="true" />
+		<field name="mx_target_url" type="text" default="" label="Read more link ( pro )" description="Link for read more button" published="1" disabled="true" />
+		<field name="aniclas" type="list" default="sfb" label="Texts Animation ( pro )" description="Texts Animation classes" disabled="true" >
+			<option value="sft">Short from Top</option>
+			<option value="sfb">Short from Bottom</option>
+			<option value="sfr">Short from Right</option>
+			<option value="sfl">Short from Left</option>
+			<option value="skewfromleft">Skew from Left</option>
+			<option value="skewfromright">Skew from right</option>
+			<option value="skewfromleftshort">Skew Short from Left</option>
+			<option value="skewfromrightshort">Skew Short from Right</option>
+			<option value="fade">fade</option>
+			<option value="randomrotateout">Fade in Rotate</option>
+		</field>
+	</fieldset>
+</form>
